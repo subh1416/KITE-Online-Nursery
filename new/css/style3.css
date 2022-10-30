@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+:root {
+  --green: #3a9943;
+}
+
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+  background: var(--green);
+  color: white;
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 5px;
+  padding: 5px;
+  background: white;
+  box-shadow: 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 32px;
+}
+
+.list a {
+  list-style: none;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-right: 9px 0;
+  margin-right: 9px;
+  color: grey;
+  transition: 0.2s ease-out;
+  align-items: flex-start;
+}
+
+.icons a {
+  list-style: none;
+  font-weight: 400;
+  text-decoration: none;
+  padding-right: 9px 0;
+  margin-left: 9px;
+  transition: 0.2s ease-out;
+}
+
+.fa {
+  font-size: 50px;
+  width: 15px;
+  height: 15px;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: linear-gradient(red, pink);
+  color: white;
+}
+
+.fa-twitter {
+  background: #007bb5;
+  color: white;
+}
+
+.top2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: max-content;
+}
+
+.logo {
+  width: 46px;
+  height: 43px;
+  position: relative;
+  left: 5px;
+}
+
+.logo img {
+  position: absolute;
+  width: 46px;
+  height: 43px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.logo h3 {
+  position: absolute;
+  left: -4px;
+  top: 8px;
+  color: rgba(103, 161, 15, 0.877);
+}
+
+.search input {
+  position: absolute;
+  left: 89px;
+  width: 55%;
+  top: 50px;
+  height: 43px;
+  background: #e5ffd4;
+  border-radius: 20px;
+  border: none;
+}
+
+.search #sf a {
+  /* position: absolute;
+    right: 200px;
+    top: 72px; */
+
+  position: relative;
+  display: inline;
+  vertical-align: middle;
+  left: 200px;
+  /* right: 51px; */
+}
+
+.fa-user-o {
+  color: gold;
+  width: 50px;
+  font-size: large;
+}
+
+input[type="text"] {
+  color: rgb(26, 105, 6);
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: larger;
+}
+
+::placeholder {
+  color: rgb(26, 105, 6);
+  opacity: 1;
+  font-weight: 100;
+  text-align: left;
+}
+
+.lists {
+  height: 49px;
+  /* box-shadow: 0 1.8px rgba(131, 129, 129, 0.3); */
+}
+
+.lists ul {
+  display: inline-flex;
+  list-style: none;
+  color: green;
+}
+
+.lists ul li {
+  display: inline;
+  font-weight: 200;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-right: 55px;
+}
+
+/* .active, .lists ul li:hover{
+    
+    border-radius: 3px;
+}*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown > a,
+.dropdown > button {
+  font-weight: 200;
+  font-size: large;
+  display: inline-block;
+  color: green;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+}
+
+/* .dropdown > a:before, .dropdown > button:before {
+    position: absolute;
+    right: 7px;
+    top: 12px;
+    content: ' ';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  } */
+
+.dropdown input[type="checkbox"] {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: 0;
+}
+
+.dropdown input[type="checkbox"]:checked {
+  position: fixed;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.dropdown ul {
+  position: absolute;
+  top: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  left: 0px;
+  list-style: none;
+  padding: 4px 0px;
+  display: none;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.175);
+  z-index: 5;
+}
+
+.dropdown input[type="checkbox"]:checked + ul {
+  display: block;
+}
+
+.dropdown ul li {
+  display: block;
+  padding: 6px 20px;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.dropdown ul li:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.dropdown ul li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.main {
+  display: grid;
+  /* justify-content: center; */
+  grid-template-columns: 30% 20% auto;
+  grid-gap: 15px;
+  width: 100%;
+  height: 70vh;
+  border-style: none;
+  margin-top: 13px;
+  margin-left: 15px;
+  padding-right: 15px;
+
+  /* display: flex;
+    justify-content: space-around; */
+  /* align-items: center;
+    vertical-align: middle; */
+}
+
+.chitr {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+  background-color: #f2e8e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.kharido {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 20px;
+  padding-left: 18px;
+}
+
+.kharido h2 {
+  text-align: center;
+
+  font-size: 30px;
+}
+
+.stars {
+    
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+ 
+}
+.ps {
+  /* margin-right: 8px; */
+  align-items: center;
+  margin-top: 0;
+  font-size: x-small;
+}
+
+.kharido .checked {
+  background: white;
+  color: orange;
+}
+
+.kharido ul {
+  color: black;
+  list-style: none;
+}
+
+/* .tap{
+    width: 80%;
+    height: 8vh;
+    background-color: ;
+    color: white;
+    border-radius: 7px;
+    border-style:none ;
+} */
+
+#bt{
+    align-content: center;
+	width: 50%;
+	height: 40px;
+	/* margin: 8px auto; */
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #e928c9;
+	font-size: 1em;
+	font-weight: bold;
+	/* margin-top: 20px; */
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+ #bt a{
+	color: white;
+	text-decoration: none;
+}
+
+#bt:hover{
+    background-color: #3f0b46b4;
+}
+
+.info{
+    text-align: left;
+    align-items: center;
+}
+
+.kharido:hover{
+  background: linear-gradient(#daffe7, white);
+
+  box-shadow: rgba(0, 0, 0, 0.175);
+
+}
