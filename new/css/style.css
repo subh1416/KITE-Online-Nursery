@@ -503,8 +503,22 @@ input[type=text] {
 }
 
 .cart-row {
-    display: flex;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    /* justify-content: space-between; */
+    column-gap: 15px;
+    border: 2px black;
+    
+
+   
 }
+.cart-row thead{
+    font-size: 2em;
+}
+
+
+
 
 .cart-item {
     width: 45%;
