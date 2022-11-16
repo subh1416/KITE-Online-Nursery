@@ -1,220 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-:root{
-    --green:#3A9943;
-  }
+:root {
+  --green: #3a9943;
+}
 
 * {
-
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 *::selection {
-    background: var(--green);
-    color: white;
+  background: var(--green);
+  color: white;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
 }
 
-.scroll-top{
-    position: fixed;
-    bottom: 4.5rem; right:1rem;
-    z-index: 1000;
-    font-size: 2.5rem;
-    background:rgba(0,255,0,.1);
-    color:var(--green);
-    border-radius: .3rem;
-    border:.1rem solid rgba(0,0,0,.1);
-    padding:.5rem 1.5rem;
-    display: none;
-  }
-  
-  .scroll-top:hover{
-    background:var(--green);
-    color:#fff;
-  }
-  
-
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    margin: 5px;
-    padding: 5px;
-    background: white;
-    box-shadow: 5px rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: 32px;
+.scroll-top {
+  position: fixed;
+  bottom: 4.5rem;
+  right: 1rem;
+  z-index: 1000;
+  font-size: 2.5rem;
+  background: rgba(0, 255, 0, 0.1);
+  color: var(--green);
+  border-radius: 0.3rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1.5rem;
+  display: none;
 }
 
+.scroll-top:hover {
+  background: var(--green);
+  color: #fff;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 5px;
+  padding: 5px;
+  background: white;
+  box-shadow: 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 32px;
+}
 
 .list a {
-    list-style: none;
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding-right: 9px 0;
-    margin-right: 9px;
-    color: grey;
-    transition: 0.2s ease-out;
-    align-items: flex-start;
-
+  list-style: none;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-right: 9px 0;
+  margin-right: 9px;
+  color: grey;
+  transition: 0.2s ease-out;
+  align-items: flex-start;
 }
 
 .icons a {
-    list-style: none;
-    font-weight: 400;
-    text-decoration: none;
-    padding-right: 9px 0;
-    margin-left: 9px;
-    transition: 0.2s ease-out;
+  list-style: none;
+  font-weight: 400;
+  text-decoration: none;
+  padding-right: 9px 0;
+  margin-left: 9px;
+  transition: 0.2s ease-out;
 }
 
 .fa {
-    font-size: 50px;
-    width: 15px;
-    height: 15px;
-    text-decoration: none;
+  font-size: 50px;
+  width: 15px;
+  height: 15px;
+  text-decoration: none;
 }
 
 .fa-facebook {
-    background: #007bb5;
-    color: white;
-
+  background: #007bb5;
+  color: white;
 }
 
 .fa-instagram {
-    background: linear-gradient(red, pink);
-    color: white;
-
+  background: linear-gradient(red, pink);
+  color: white;
 }
 
 .fa-twitter {
-    background: #007bb5;
-    color: white;
-
+  background: #007bb5;
+  color: white;
 }
 
 .top2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: max-content;
 }
 
 .logo {
-    width: 46px;
-    height: 43px;
-    position: relative;
-    left: 5px;
+  width: 46px;
+  height: 43px;
+  position: relative;
+  left: 5px;
 }
 
 .logo img {
-    position: absolute;
-    width: 46px;
-    height: 43px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
+  position: absolute;
+  width: 46px;
+  height: 43px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
 .logo h3 {
-    position: absolute;
-    left: -4px;
-    top: 8px;
-    color: rgba(103, 161, 15, 0.877);
-
-
-
+  position: absolute;
+  left: -4px;
+  top: 8px;
+  color: rgba(103, 161, 15, 0.877);
 }
 
 .search input {
-    position: absolute;
-    left: 89px;
-    width: 55%;
-    top: 50px;
-    height: 43px;
-    background: #E5FFD4;
-    border-radius: 20px;
-    border: none;
+  position: absolute;
+  left: 89px;
+  width: 55%;
+  top: 50px;
+  height: 43px;
+  background: #e5ffd4;
+  border-radius: 20px;
+  border: none;
 }
 
-.sear{
-    font-size: x-large;
-    border-radius:0 20px 20px 0;
-    position: relative;
-    width: 70%;
-    height: 43px;
-    right: 474px;
-    background-color: #2e3e41;
+.sear {
+  font-size: x-large;
+  border-radius: 0 20px 20px 0;
+  position: relative;
+  width: 70%;
+  height: 43px;
+  right: 474px;
+  background-color: #2e3e41;
 }
 
-.fa-search{
-    color: #ffffff;
-    padding-left: 5px;
-    padding-top: 9px;
+.fa-search {
+  color: #ffffff;
+  padding-left: 5px;
+  padding-top: 9px;
 }
 
 .search #sf a {
-    /* position: absolute;
+  /* position: absolute;
     right: 200px;
     top: 72px; */
 
-    position: relative;
-    display: inline;
-    vertical-align: middle;
-    left: 200px;
-    /* right: 51px; */
+  position: relative;
+  display: inline;
+  vertical-align: middle;
+  left: 200px;
+  /* right: 51px; */
 }
 
 .fa-user-o {
-    color: gold;
-    width: 50px;
-    font-size: large;
+  color: gold;
+  width: 50px;
+  font-size: large;
 }
 
-
-
-input[type=text] {
-    color: rgb(26, 105, 6);
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    text-align: left;
-    font-size: larger;
+input[type="text"] {
+  color: rgb(26, 105, 6);
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: larger;
 }
 
 ::placeholder {
-    color: rgb(26, 105, 6);
-    opacity: 1;
-    font-weight: 100;
-    text-align: left;
+  color: rgb(26, 105, 6);
+  opacity: 1;
+  font-weight: 100;
+  text-align: left;
 }
 
 .lists {
-    height: 49px;
-    box-shadow: 0 1.8px rgba(131, 129, 129, 0.3);
+  height: 49px;
+  box-shadow: 0 1.8px rgba(131, 129, 129, 0.3);
 }
 
 .lists ul {
-    display: inline-flex;
-    list-style: none;
-    color: green;
-
+  display: inline-flex;
+  list-style: none;
+  color: green;
 }
 
 .lists ul li {
-
-    display: inline;
-    font-weight: 200;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    padding-right: 55px;
+  display: inline;
+  font-weight: 200;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-right: 55px;
 }
 
 /* .active, .lists ul li:hover{
@@ -223,25 +209,25 @@ input[type=text] {
 }*/
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+  position: relative;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 .dropdown:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.dropdown>a,
-.dropdown>button {
-    font-weight: 200;
-    font-size: large;
-    display: inline-block;
-    color: green;
-    text-decoration: none;
-    border: none;
-    background-color: white;
+.dropdown > a,
+.dropdown > button {
+  font-weight: 200;
+  font-size: large;
+  display: inline-block;
+  color: green;
+  text-decoration: none;
+  border: none;
+  background-color: white;
 }
 
 /* .dropdown > a:before, .dropdown > button:before {
@@ -254,388 +240,539 @@ input[type=text] {
     border-top: 5px solid black;
   } */
 
-.dropdown input[type=checkbox] {
-    position: absolute;
-    display: block;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    opacity: 0;
-    
+.dropdown input[type="checkbox"] {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: 0;
 }
 
-.dropdown input[type=checkbox]:checked {
-    position: fixed;
-    z-index: 0;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+.dropdown input[type="checkbox"]:checked {
+  position: fixed;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .dropdown ul {
-    position: absolute;
-    top: 25px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    left: 0px;
-    list-style: none;
-    padding: 4px 0px;
-    display: none;
-    background-color: white;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .175);
-    z-index: 5;
+  position: absolute;
+  top: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  left: 0px;
+  list-style: none;
+  padding: 4px 0px;
+  display: none;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.175);
+  z-index: 5;
 }
 
-.dropdown input[type=checkbox]:checked+ul {
-    display: block;
+.dropdown input[type="checkbox"]:checked + ul {
+  display: block;
 }
 
 .dropdown ul li {
-    display: block;
-    padding: 6px 20px;
-    white-space: nowrap;
-    min-width: 100px;
+  display: block;
+  padding: 6px 20px;
+  white-space: nowrap;
+  min-width: 100px;
 }
 
 .dropdown ul li:hover {
-    background-color: #F5F5F5;
-    cursor: pointer;
+  background-color: #f5f5f5;
+  cursor: pointer;
 }
 
 .dropdown ul li a {
-    text-decoration: none;
-    display: block;
-    color: black
+  text-decoration: none;
+  display: block;
+  color: black;
 }
-
 
 /* Slideshow container */
 .slideshow-container {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    
+  width: 100%;
+  height: 500px;
+  position: relative;
 }
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
-    
+  display: none;
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    background-color: #bbb;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  background-color: #bbb;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-    vertical-align: text-bottom;
-    right: 0;
-    border-radius: 3px 0 0 3px;
+  vertical-align: text-bottom;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .active,
 .dot:hover {
-    background-color: #717171;
+  background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @keyframes fade {
-    from {
-        opacity: .4
-    }
+  from {
+    opacity: 0.4;
+  }
 
-    to {
-        opacity: 1
-    }
+  to {
+    opacity: 1;
+  }
 }
 
-
-  
-.category .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 65px;
-    gap:2.5rem;
-    width: 100%;
-
-  }
-  
-  .category .box-container .box{
-    position: relative;
-    
-    /* flex:1 1 23rem; */
-    
-
-    height: 30rem;
-    overflow: hidden;
-    border:.1rem solid rgba(0,0,0,.3);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  }
-  
-  .category .box-container .box img{
-    height: 100%;
-    width:100%;
-    object-fit: cover;
-  }
-  
-  .category .box-container .box .content{
-    position: absolute;
-    bottom: -11rem;
-    background: #fff;
-    border-top:.1rem solid rgba(0,0,0,.3);
-    text-align: center;
-    /* padding: 0; */
-    width:100%;
-  }
-  
-  .category .box-container .box:hover .content{
-    bottom:0;
-  }
-  
-  .category .box-container .box .content h3{
-    color:#333;
-    font-size: 2.5rem;
-    padding:.5rem 0;
-  }
-  
-  .category .box-container .box .content .btn{
-    margin-bottom: 1.3rem;
-  }
-  
-  .heading{
-    font-size: 3rem;
-    color:#444;
-    padding-left: 1rem;
-    border-left: .4rem solid var(--green);
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-  }
-
-  .btn{
-    display: inline-block;
-    margin-top: 1rem;
-    padding:.8rem 3rem;
-    background:var(--green);
-    color:#fff;
-    font-size: 1.7rem;
-    cursor: pointer;
-    
-  }
-
-  .box a{
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-  
-  .btn:hover{
-    background:#333;
-  }
-
-  /* add to cart */
-
-  .section-header {
-    font-family: "Metal Mania";
-    font-weight: normal;
-    color: #333;
-    text-align: center;
-    font-size: 2.5em;
+.category .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 65px;
+  gap: 2.5rem;
+  width: 100%;
 }
 
+.category .box-container .box {
+  position: relative;
+
+  /* flex:1 1 23rem; */
+
+  height: 30rem;
+  overflow: hidden;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.category .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.category .box-container .box .content {
+  position: absolute;
+  bottom: -11rem;
+  background: #fff;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  /* padding: 0; */
+  width: 100%;
+}
+
+.category .box-container .box:hover .content {
+  bottom: 0;
+}
+
+.category .box-container .box .content h3 {
+  color: #333;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.category .box-container .box .content .btn {
+  margin-bottom: 1.3rem;
+}
+
+.heading {
+  font-size: 3rem;
+  color: #444;
+  padding-left: 1rem;
+  border-left: 0.4rem solid var(--green);
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  background: var(--green);
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.box a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+/* add to cart */
+
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
 
 .cart-header {
-    font-weight: bold;
-    font-size: 1.25em;
-    color: #333;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
 }
 
 .cart-column {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid black;
-    margin-right: 1.5em;
-    padding-bottom: 10px;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 .cart-row {
-    width: 100%;
-    display: grid;
-    text-align: center;
-    /* justify-content: space-between; */
-    column-gap: 15px;
-    border: 2px black;
-    
-
-   
+  width: 100%;
+  display: grid;
+  text-align: center;
+  /* justify-content: space-between; */
+  column-gap: 15px;
+  border: 2px black;
 }
-.cart-row thead{
-    font-size: 2em;
+.cart-row thead {
+  font-size: 2em;
 }
-
-
-
 
 .cart-item {
-    width: 45%;
+  width: 45%;
 }
 
 .cart-price {
-    width: 20%;
-    font-size: 1.2em;
-    color: #333;
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
 }
 
 .cart-quantity {
-    width: 35%;
+  width: 35%;
 }
 
 .cart-item-title {
-    color: #333;
-    margin-left: .5em;
-    font-size: 1.2em;
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
 }
 
 .cart-item-image {
-    width: 75px;
-    height: auto;
-    border-radius: 10px;
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .btn-danger {
-    color: white;
-    background-color: #EB5757;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+  background-color: #cc4c4c;
 }
 
 .cart-quantity-input {
-    height: 34px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid #56CCF2;
-    background-color: #eee;
-    color: #333;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    margin-right: 25px;
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .cart-row:last-child .cart-column {
-    border: none;
+  border: none;
 }
 
 .cart-total {
-    text-align: end;
-    margin-top: 10px;
-    margin-right: 10px;
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .cart-total-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: black;
-    margin-right: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
 }
 
 .cart-total-price {
-    color: #333;
-    font-size: 1.1em;
+  color: #333;
+  font-size: 1.1em;
 }
-.shoping{
-    color: #333;
-    font-size: 1.1em;
+.shoping {
+  color: #333;
+  font-size: 1.1em;
 }
 
 .btn-purchase {
-    display: block;
-    margin: 40px auto 80px auto;
-    font-size: 1.75em;
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
 }
 
-button{
-    background-color: white;
-    border-style: none;
+button {
+  background-color: white;
+  border-style: none;
 }
 
-.shop-item-price{
-    font-weight: 100;
-    font-size: 33px;
-
+.shop-item-price {
+  font-weight: 100;
+  font-size: 33px;
 }
 
-.shop{
-    font-weight: 100;
-    font-size: 33px;
+.shop {
+  font-weight: 100;
+  font-size: 33px;
+}
 
+.entire {
+  display: none;
+
+  
+}
+
+.track {
+  display: block;
+  
+  margin: 119px;
+  padding: 15px;
+  width: 70%;
+  height: max-content;
+  background: white;
+ 
+  border-radius: 5%;
+  align-items: center;
+  
+  
+}
+
+
+.track ul {
+  display: flex;
+  list-style: none;
+  column-gap: 15px;
+}
+
+#li1 {
+    color: white;
+  animation: text-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transition: 0.2s ease-out;
+}
+
+#li2 {
+  color: white;
+  animation: text-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+  transition: 0.2s ease-out;
+}
+
+#li3 {
+    color: white;
+  animation: text-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
+  transition: 0.2s ease-out;
+}
+
+#li4 {
+    color: white;
+  animation: text-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 12s;
+  transition: 1s ease-in-out;
+}
+
+.dotta {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.dotta1 {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.dotta2 {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
+}
+.dotta3 {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 12s;
+}
+
+.vertline {
+    width: 4px;
+    margin-left: 10%;
+    background-color: #000000;
+    top: -10%;
+    animation:lineup 3s forwards;
+    position: relative;
+    left: -9.3%;
+    animation-delay: 1s;
+    border-radius: 2px;
+  }
+.vertline1 {
+    width: 4px;
+    margin-left: 10%;
+    background-color: #000000;
+    top: -10%;
+    animation:lineup 3s forwards;
+    position: relative;
+    left: -9.3%;
+    animation-delay: 5s;
+  }
+.vertline2 {
+    width: 4px;
+    margin-left: 10%;
+    background-color: #000000;
+    top: -10%;
+    animation:lineup 3s forwards;
+    position: relative;
+    left: -9.3%;
+    animation-delay: 9s;
+
+  }
+
+  
+  @keyframes lineup {
+    0% {
+      height: 0px;
+    }
+    100% {
+      height: 200px;
+    }
+  }
+
+@keyframes example {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes text-color {
+  from {
+    color: black;
+  }
+  to {
+    color: black;
+  }
 }

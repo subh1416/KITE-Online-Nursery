@@ -35,11 +35,11 @@ function ready() {
 
 
 
-function purchaseClicked() {
-  alert("Thankyou for your purchase");
-  localStorage.clear();
+// function purchaseClicked() {
+//   alert("Thankyou for your purchase");
+//   localStorage.clear();
   
-}
+// }
 
 
 
