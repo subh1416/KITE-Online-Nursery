@@ -147,6 +147,8 @@ function addToCart() {
   }
 }
 
+addToCart();
+
 // function addToCart(title, price,productQuantity) {
 //   var cartRow = document.createElement("div");
 //   cartRow.classList.add("cart-row");
@@ -239,5 +241,5 @@ function search() {
     }
   }
 
-  addToCart();
+  
 }
