@@ -610,25 +610,20 @@ button {
 
 .entire {
   display: none;
-
-  
 }
 
 .track {
   display: block;
-  
+
   margin: 119px;
   padding: 15px;
   width: 70%;
   height: max-content;
   background: white;
- 
+
   border-radius: 5%;
   align-items: center;
-  
-  
 }
-
 
 .track ul {
   display: flex;
@@ -637,7 +632,7 @@ button {
 }
 
 #li1 {
-    color: white;
+  color: white;
   animation: text-color;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -654,7 +649,7 @@ button {
 }
 
 #li3 {
-    color: white;
+  color: white;
   animation: text-color;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -663,7 +658,7 @@ button {
 }
 
 #li4 {
-    color: white;
+  color: white;
   animation: text-color;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -717,47 +712,45 @@ button {
 }
 
 .vertline {
-    width: 4px;
-    margin-left: 10%;
-    background-color: #000000;
-    top: -10%;
-    animation:lineup 3s forwards;
-    position: relative;
-    left: -9.3%;
-    animation-delay: 1s;
-    border-radius: 2px;
-  }
+  width: 4px;
+  margin-left: 10%;
+  background-color: #000000;
+  top: -10%;
+  animation: lineup 3s forwards;
+  position: relative;
+  left: -9.3%;
+  animation-delay: 1s;
+  border-radius: 2px;
+}
 .vertline1 {
-    width: 4px;
-    margin-left: 10%;
-    background-color: #000000;
-    top: -10%;
-    animation:lineup 3s forwards;
-    position: relative;
-    left: -9.3%;
-    animation-delay: 5s;
-  }
+  width: 4px;
+  margin-left: 10%;
+  background-color: #000000;
+  top: -10%;
+  animation: lineup 3s forwards;
+  position: relative;
+  left: -9.3%;
+  animation-delay: 5s;
+}
 .vertline2 {
-    width: 4px;
-    margin-left: 10%;
-    background-color: #000000;
-    top: -10%;
-    animation:lineup 3s forwards;
-    position: relative;
-    left: -9.3%;
-    animation-delay: 9s;
+  width: 4px;
+  margin-left: 10%;
+  background-color: #000000;
+  top: -10%;
+  animation: lineup 3s forwards;
+  position: relative;
+  left: -9.3%;
+  animation-delay: 9s;
+}
 
+@keyframes lineup {
+  0% {
+    height: 0px;
   }
-
-  
-  @keyframes lineup {
-    0% {
-      height: 0px;
-    }
-    100% {
-      height: 200px;
-    }
+  100% {
+    height: 200px;
   }
+}
 
 @keyframes example {
   from {
