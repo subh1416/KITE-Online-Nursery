@@ -50,6 +50,8 @@ function addToCartClicked(event) {
   var title = shopItem.getElementsByClassName("shop-item-title")[0].innerText;
   var price = shopItem.getElementsByClassName("shop-item-price")[0].innerText;
 
+
+
   let cart = localStorage.getItem("cart");
   if (cart == null) {
     let products = [];
