@@ -19,6 +19,24 @@ function purchaseClicked() {
   for (var i = 0; i < point.length; i++) {
     point[i].style.display = "none";
   }
+
+  var thanks = document.getElementsByClassName("thanks");
+  for (var i = 0; i < thanks.length; i++) {
+    thanks[i].style.display = "block";
+  }
+
+ 
 }
+
+var btnClear = document.querySelector('button');
+var inputs = document.querySelectorAll('input');
+
+btnClear.addEventListener('click',() =>{
+  inputs.forEach(input => input.value = ''); 
+    
+});
+
+
+
 
 //.style can't be used coz var entire = document.getElementsByClassName("entire"); gives elements inside div in array therefore for loop is used
