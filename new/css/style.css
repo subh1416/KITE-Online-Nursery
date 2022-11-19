@@ -879,7 +879,7 @@ button {
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #ea1d6f;
+  color: #a8e220;
   font-size: 26px;
 }
 
@@ -891,7 +891,7 @@ button {
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: #ea1d6f;
+  background: #a8e220;
 }
 
 .app-contact {
@@ -937,14 +937,14 @@ button {
 .app-form-button {
   background: none;
   border: none;
-  color: #ea1d6f;
+  color: #a8e220;
   font-size: 14px;
   cursor: pointer;
   outline: none;
 }
 
 .app-form-button:hover {
-  color: #b9134f;
+  color: #a8e220;
 }
 
 .credits {
