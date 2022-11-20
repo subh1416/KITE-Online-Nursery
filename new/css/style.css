@@ -778,6 +778,7 @@ button {
 .thanks{
   display: none;
 }
+
 *, *:before, *:after {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -921,7 +922,7 @@ button {
   border-bottom: 1px solid #666;
   color: #ddd;
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   outline: none;
   transition: border-color .2s;
 }

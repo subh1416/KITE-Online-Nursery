@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin-Page</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kanit:ital@1&family=Nunito&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+
+        background: url(https://thumbs.dreamstime.com/b/cover-fresh-green-plants-wallpaper-space-inscriptions-142143907.jpg);
+        background-color: whitesmoke;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        height: 700px;
+      }
+
+      h1 {
+        text-align: center;
+        color: rgb(7, 34, 24);
+        font-family: "Kanit", sans-serif;
+        background: linear-gradient(rgb(35, 255, 126), #2ecc71);
+      }
+
+      .container ul li {
+        float: left;
+        list-style: none;
+        width: 25%;
+        height: 220px;
+        background: linear-gradient(#dfe6e9, wheat);
+
+        margin: 20px 0px 20px 65px;
+        box-sizing: border-box;
+        border-radius: 10%;
+        text-align: center;
+        align-items: center;
+      }
+      .container ul li:hover {
+        opacity: 0.8;
+        box-shadow: 5px 5px 5px 5px #aaaaaa;
+        border: 1px solid #bfbfbf;
+      }
+      .tet {
+        font-size: x-large;
+        font-family: "Dosis", sans-serif;
+
+        position: relative;
+        top: 83px;
+      }
+
+      @media screen and (max-width: 1250px) {
+        .container ul li {
+          width: 40%;
+          margin-left: 40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Admin Page</h1>
+      <ul>
+        <a href=""
+          ><li><div class="tet">Add Product</div></li></a
+        >
+        <a href=""><li><div class="tet">Update Product</div></li></a>
+        <a href=""><li><div class="tet">Show Users</div></li></a>
+        <a href=""><li><div class="tet">Show Products</div></li></a>
+        <a href=""><li><div class="tet">Delete Product</div></li></a>
+        <a href=""><li><div class="tet">FeedBack</div></li></a>
+      </ul>
+    </div>
+  </body>
 </html>
