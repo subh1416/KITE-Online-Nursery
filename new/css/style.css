@@ -143,7 +143,6 @@ html {
   height: 43px;
   right: 479px;
   background-color: #2e3e41;
-  
 }
 
 .fa-search {
@@ -178,7 +177,6 @@ input[type="text"] {
   text-align: left;
   font-size: 1em;
   font-weight: 200;
-
 }
 
 ::placeholder {
@@ -227,15 +225,11 @@ input[type="text"] {
   background-color: wheat;
 }
 
-.dropdown li:hover >.h-dropdown{
-  
+.dropdown li:hover > .h-dropdown {
   display: block;
-  
-
 }
 
-.dropdown > a
- {
+.dropdown > a {
   font-weight: 200;
   font-size: large;
   display: inline-block;
@@ -244,17 +238,6 @@ input[type="text"] {
   border: none;
   background-color: white;
 }
-
-
-/* .dropdown > a:before, .dropdown > button:before {
-    position: absolute;
-    right: 7px;
-    top: 12px;
-    content: ' ';
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid black;
-  } */
 
 
 .dropdown ul {
@@ -270,8 +253,6 @@ input[type="text"] {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.175);
   z-index: 5;
 }
-
-
 
 .dropdown ul li {
   display: block;
@@ -354,7 +335,7 @@ input[type="text"] {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* The dots/ets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -765,21 +746,17 @@ button {
   }
 }
 
-.thanks{
+.thanks {
   display: none;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
-
-
-
-
 
 .container2 {
   flex: 0 1 700px;
@@ -794,7 +771,7 @@ button {
 }
 
 .screen:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -802,7 +779,7 @@ button {
   right: 20px;
   bottom: 0;
   border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   z-index: -1;
 }
 
@@ -875,7 +852,7 @@ button {
 }
 
 .app-title:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -914,7 +891,7 @@ button {
   font-size: 14px;
   text-transform: capitalize;
   outline: none;
-  transition: border-color .2s;
+  transition: border-color 0.2s;
 }
 
 .app-form-control::placeholder {
@@ -944,7 +921,7 @@ button {
   align-items: center;
   margin-top: 20px;
   color: #ffa4bd;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
