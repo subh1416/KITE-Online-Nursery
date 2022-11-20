@@ -219,13 +219,23 @@ input[type="text"] {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
-
-.dropdown:hover {
-  cursor: pointer;
+.h-dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: wheat;
 }
 
-.dropdown > a,
-.dropdown > button {
+.dropdown li:hover >.h-dropdown{
+  
+  display: block;
+  
+
+}
+
+.dropdown > a
+ {
   font-weight: 200;
   font-size: large;
   display: inline-block;
@@ -234,6 +244,7 @@ input[type="text"] {
   border: none;
   background-color: white;
 }
+
 
 /* .dropdown > a:before, .dropdown > button:before {
     position: absolute;
@@ -245,29 +256,10 @@ input[type="text"] {
     border-top: 5px solid black;
   } */
 
-.dropdown input[type="checkbox"] {
-  position: absolute;
-  display: block;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  opacity: 0;
-}
-
-.dropdown input[type="checkbox"]:checked {
-  position: fixed;
-  z-index: 0;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-}
 
 .dropdown ul {
   position: absolute;
-  top: 25px;
+  top: 20px;
   border: 1px solid #ccc;
   border-radius: 3px;
   left: 0px;
@@ -279,9 +271,7 @@ input[type="text"] {
   z-index: 5;
 }
 
-.dropdown input[type="checkbox"]:checked + ul {
-  display: block;
-}
+
 
 .dropdown ul li {
   display: block;
