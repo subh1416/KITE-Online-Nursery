@@ -1,4 +1,5 @@
-KITE - Online Nursery 🌿
+# KITE - Online Nursery 🌿
+
 Plants have a remarkable way of transforming any space—whether it's a cozy studio apartment, a sprawling mansion, or a bustling office. As urban areas expand and green spaces shrink, the need to reconnect with nature has never been greater. At KITE, we believe that the simple act of surrounding ourselves with plants can help create a healthier, more vibrant world for ourselves and future generations. 🌍
 
 KITE is designed with the modern user's needs in mind. It’s more than just an online store for plants; it's a hub for green living. Our website offers a wide variety of plants, seeds, fertilizers, and pots to suit every environment. Additionally, it serves as a learning resource where users can explore detailed information about each plant, making it easy to care for and grow their green companions. 🌱
