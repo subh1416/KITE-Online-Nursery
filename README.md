@@ -5,10 +5,9 @@ Plants have a remarkable way of transforming any space—whether it's a cozy stu
 KITE is designed with the modern user's needs in mind. It’s more than just an online store for plants; it's a hub for green living. Our website offers a wide variety of plants, seeds, fertilizers, and pots to suit every environment. Additionally, it serves as a learning resource where users can explore detailed information about each plant, making it easy to care for and grow their green companions. 🌱
 
 Features:
-Online Shopping: Easily browse and purchase plants, seeds, fertilizers, and pots.
-Learn & Grow: Access detailed information about plants to enhance your gardening knowledge.
-Convenient Cart: Add products to your cart and seamlessly complete your purchases.
-Join us in making the world a little greener, one plant at a time. Together, we can nurture nature back into our lives. 🌿
+-Online Shopping: Easily browse and purchase plants, seeds, fertilizers, and pots.
+-Learn & Grow: Access detailed information about plants to enhance your gardening knowledge.🌿
+-Convenient Cart: Add products to your cart and seamlessly complete your purchases.
 
 Made with ❤️ by [Subhadip](https://github.com/subh1416),[Niyati](https://github.com/Niyati1206),[Vaishali](https://github.com/Vaishali021103) and [Harsh](https://github.com/sardaharsh)
 
