@@ -1,8 +1,15 @@
-###KITE-Online Nursery
-Be it a cozy studio apartment, a sprawling mansion, or an office filled with rows of cubicles, plants tend to brighten and liven up any room. With growing pollution and decreasing  greenery it has become the need of the hour to address this problem and do our part to make  this planet a better place for us and our future generations. Nature will always find its way to  survive, and it’s our only hope.  
-Kite was designed keeping in mind user requirements and the problems faced. It is a website  for buying not just plants but also seeds, fertilizers and pots online. Information about plants  is provided on the website and thus it could also be used for learning more about plants. Users can add product to cart and purchase them.
+KITE - Online Nursery 🌿
+Plants have a remarkable way of transforming any space—whether it's a cozy studio apartment, a sprawling mansion, or a bustling office. As urban areas expand and green spaces shrink, the need to reconnect with nature has never been greater. At KITE, we believe that the simple act of surrounding ourselves with plants can help create a healthier, more vibrant world for ourselves and future generations. 🌍
 
+KITE is designed with the modern user's needs in mind. It’s more than just an online store for plants; it's a hub for green living. Our website offers a wide variety of plants, seeds, fertilizers, and pots to suit every environment. Additionally, it serves as a learning resource where users can explore detailed information about each plant, making it easy to care for and grow their green companions. 🌱
 
+Features:
+Online Shopping: Easily browse and purchase plants, seeds, fertilizers, and pots.
+Learn & Grow: Access detailed information about plants to enhance your gardening knowledge.
+Convenient Cart: Add products to your cart and seamlessly complete your purchases.
+Join us in making the world a little greener, one plant at a time. Together, we can nurture nature back into our lives. 🌿
+
+Made with ❤️ by [Subhadip](https://github.com/subh1416),[Niyati](https://github.com/Niyati1206),[Vaishali](https://github.com/Vaishali021103) and [Harsh](https://github.com/sardaharsh)
 
 https://github.com/user-attachments/assets/405e4116-72cf-4529-a621-fb83265b441a
 
